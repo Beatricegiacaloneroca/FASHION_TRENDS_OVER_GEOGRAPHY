@@ -1,27 +1,44 @@
-## The science of fashion trends: Can we predict them?
-
-<img width="607" alt="Screenshot 2024-07-29 at 2 56 30 PM" src="https://github.com/user-attachments/assets/a1842ce3-66e4-4331-9eb7-05ee162853ca">
+## The Science of Fashion Trends:
 
 
-This initiative merges data from Google Trends and the Pinterest API to deepen our understanding of the dynamics within the global fashion industry, assisting stakeholders in making informed business decisions.
+<img width="916" alt="Screenshot 2024-07-29 at 3 12 24 PM" src="https://github.com/user-attachments/assets/9314b6c0-28de-4637-80ec-7f228dbd460b">
+
 
 ## What Was Our Objective?
 
-**Objective**: To analyze the geographical movement of fashion trends on a global scale.
+While it is common knowloedge that fashion trends have **patterns in their cyclical nature** here we aim to study how they **propagate across different countries** and to identify underlying patterns.
+
+<img width="259" alt="Screenshot 2024-07-29 at 2 58 18 PM" src="https://github.com/user-attachments/assets/be48ddf5-bf99-4247-a862-a96ca9fa3abe"> 
 
 ## How Did We Approach This Project?
 
-**Methodology**:
-- **Data Collection**: Engaged in manual data collection encompassing 200 datasets and 40 fashion brands from five critical fashion hubs: the US, UK, Italy, Australia, and France.
-- **Data Processing**: Used Python's pandas library for rigorous data cleaning and organization into detailed datasets.
-- **Data Analysis**: Employed moving averages for data smoothing and developed delay matrices to quantify the rate at which different regions adopt trends.
-- **Visualization**: Created heatmaps using Matplotlib and Geopandas to effectively illustrate the variation in trend adoption times across countries.
+### **Methodology**:
+#### - **Data Collection**:
+  * We collected 200 datasets from google trends including 40 fashion brands from five critical fashion hubs: the US, UK, Italy, Australia, and France
+  * *Why Google Trends?*
+      * Wealth of data generally accessible to public that is reliably consistent across countries and avoids focusing only on certain demographics 
+
+#### - **Data Processing**: 
+  * Used Python's **pandas** library for rigorous data cleaning and organization into detailed datasets
+#### - **Data Smoothing**: 
+  * To reduce noise and lessen the impact of short-term fluctuations in a dataset, we decided to smooth the data to make the underlying trends more visible.
+  * We used a moving average to smooth the data, with a window size of 2
+      * **Window Size:** *refers to the number of data points considered for each average calculation. We consider 2 (ie 2 weeks). The larger the window size, the smoother the data will be, but it may lose finer details*
+
+#### - **Data Analysis**:
+  * **Find delay with moving average**
+      * We defined the following function to use when calculating the moving average
+      * See the example for one trend we explored as trial:
+    <img width="895" alt="Screenshot 2024-07-29 at 3 23 09 PM" src="https://github.com/user-attachments/assets/ea427e88-01c4-42d1-98c8-412a2e55bdd8">
+
+  * Employed moving averages for data smoothing and developed delay matrices to quantify the rate at which different regions adopt trends.
+  
+  #### **Visualization**: Created heatmaps using Matplotlib and Geopandas to effectively illustrate the variation in trend adoption times across countries.
 
 ## What Did We Discover?
 
-Our study explores how fashion trends propagate across different countries and identifies **patterns in their cyclical nature.** 
-<img width="399" alt="Screenshot 2024-07-29 at 2 58 18 PM" src="https://github.com/user-attachments/assets/be48ddf5-bf99-4247-a862-a96ca9fa3abe">
 Our analysis shows that contrary to intuition, for mainstream trends (such as adidas Gazelle) **the United States and Australia typically lead,** with European countries like Italy and the UK following them. 
+This may be because the main trends we analyzed were from items sold worldwide which likely started to produce in the US. Naturally, if some items were famous and exclusively sold in Italy for instance, we would have excluded the item from the study.
 
 
 ## What Insights Are Available for Stakeholders?
