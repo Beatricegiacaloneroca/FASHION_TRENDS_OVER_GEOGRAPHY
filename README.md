@@ -40,7 +40,7 @@ While it is common knowloedge that fashion trends have **patterns in their cycli
       * Here for instance there is a delay of -3 from US to Italy. This means that the US is on average 3 days ahead for the UGG trend.
        <img width="563" alt="Screenshot 2024-07-29 at 3 42 12 PM" src="https://github.com/user-attachments/assets/aaf5f3a6-7983-43ee-be52-915c1513a48e">
 
-  #### **Visualization**: C
+  #### **Visualization**: 
    * We created heatmaps using Matplotlib and Geopandas to effectively illustrate the variation in trend adoption times across countries.
 
 
