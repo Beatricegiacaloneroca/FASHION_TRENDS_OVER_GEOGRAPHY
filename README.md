@@ -71,6 +71,9 @@ This project offers strategic insights for fashion brands and marketers, suggest
 **Challenges**:
 - **Data Collection**: Navigated significant hurdles due to the restrictions on scraping Google Trends and the complex integration of multiple datasets
 - **Data Compatibility**: Encountered and resolved issues with code compatibility and data representation, choosing heatmaps as the most effective method to summarize our findings
+<img width="469" alt="Screenshot 2024-07-29 at 4 26 57 PM" src="https://github.com/user-attachments/assets/38fe7643-2bdf-4cdb-afbf-d93cf802b48a">
+
+
 
 ## How Can This Project Be Improved?
 
