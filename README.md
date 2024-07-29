@@ -1,4 +1,4 @@
-## The Science of Fashion Trends:
+## The Science of Fashion Trends
 
 
 <img width="916" alt="Screenshot 2024-07-29 at 3 12 24 PM" src="https://github.com/user-attachments/assets/9314b6c0-28de-4637-80ec-7f228dbd460b">
