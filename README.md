@@ -1,8 +1,6 @@
 ## The Science of Fashion Trends
 
-
-<img width="916" alt="Screenshot 2024-07-29 at 3 12 24 PM" src="https://github.com/user-attachments/assets/9314b6c0-28de-4637-80ec-7f228dbd460b">
-
+<img width="816" alt="Screenshot 2024-07-29 at 4 04 13 PM" src="https://github.com/user-attachments/assets/f3de08d8-e4e9-47bf-9a9b-001d3e0a6578">
 
 ## What Was Our Objective?
 
