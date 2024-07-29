@@ -41,7 +41,7 @@ While it is common knowloedge that fashion trends have **patterns in their cycli
 
 
 * *What would this mean for a specific trend?*
-  * Here for instance there is a delay of -3 from US to Italy. This means that the US is on average 3 days ahead for the UGG trend.
+  * Here for instance there is a delay of -3 from US to Italy. This means that the US is on average 3 weeks ahead for the UGG trend.
     
        <img width="463" alt="Screenshot 2024-07-29 at 3 42 12 PM" src="https://github.com/user-attachments/assets/aaf5f3a6-7983-43ee-be52-915c1513a48e">
        
@@ -69,8 +69,8 @@ This project offers strategic insights for fashion brands and marketers, suggest
 ## What Challenges Did We Encounter?
 
 **Challenges**:
-- **Data Collection**: Navigated significant hurdles due to the restrictions on scraping Google Trends and the complex integration of multiple datasets.
-- **Data Compatibility**: Encountered and resolved issues with code compatibility and data representation, choosing heatmaps as the most effective method to summarize our findings.
+- **Data Collection**: Navigated significant hurdles due to the restrictions on scraping Google Trends and the complex integration of multiple datasets
+- **Data Compatibility**: Encountered and resolved issues with code compatibility and data representation, choosing heatmaps as the most effective method to summarize our findings
 
 ## How Can This Project Be Improved?
 
