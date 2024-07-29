@@ -31,19 +31,28 @@ While it is common knowloedge that fashion trends have **patterns in their cycli
       * See the example for one trend we explored as trial:
     <img width="895" alt="Screenshot 2024-07-29 at 3 23 09 PM" src="https://github.com/user-attachments/assets/ea427e88-01c4-42d1-98c8-412a2e55bdd8">
 
-  * Employed moving averages for data smoothing and developed delay matrices to quantify the rate at which different regions adopt trends.
-  
-  #### **Visualization**: Created heatmaps using Matplotlib and Geopandas to effectively illustrate the variation in trend adoption times across countries.
+  * **Find delay matrix**
+    * Function to find delay matrix for an x item
+    * Note: the input is a list of the smoothed interests of all countries we want for that item x 
+     <img width="872" alt="Screenshot 2024-07-29 at 3 33 47 PM" src="https://github.com/user-attachments/assets/e50b0802-3958-4d05-b42f-40fb8fa3ff11">
+     
+    * *What would this mean for a specific trend?*
+      * Here for instance there is a delay of -3 from US to Italy. This means that the US is on average 3 days ahead for the UGG trend.
+       <img width="563" alt="Screenshot 2024-07-29 at 3 42 12 PM" src="https://github.com/user-attachments/assets/aaf5f3a6-7983-43ee-be52-915c1513a48e">
+
+  #### **Visualization**: C
+   * We created heatmaps using Matplotlib and Geopandas to effectively illustrate the variation in trend adoption times across countries.
+
 
 ## What Did We Discover?
 
 Our analysis shows that contrary to intuition, for mainstream trends (such as adidas Gazelle) **the United States and Australia typically lead,** with European countries like Italy and the UK following them. 
 This may be because the main trends we analyzed were from items sold worldwide which likely started to produce in the US. Naturally, if some items were famous and exclusively sold in Italy for instance, we would have excluded the item from the study.
 
-
-## What Insights Are Available for Stakeholders?
+## How is this relevant for fashion brands and trend followers?
 
 This project offers strategic insights for fashion brands and marketers, suggesting a focused approach in areas that quickly embrace new trends. We recommend amplifying marketing efforts in the US and Australia due to their leading roles in trendsetting.
+
 
 ## What Challenges Did We Encounter?
 
@@ -55,10 +64,6 @@ This project offers strategic insights for fashion brands and marketers, suggest
 
 Future enhancements could include the development of an interactive dashboard that allows real-time trend mapping and the integration of predictive algorithms to forecast the directions of future fashion trends.
 
-## How Can You Contribute?
 
-We welcome contributions to refine data collection methods, enhance the visual representation of data, or improve the predictive accuracy of trend movements.
 
-## Who To Contact for More Information?
 
-For further inquiries or suggestions, please engage with us through our GitHub issues section or contact us directly via email.
