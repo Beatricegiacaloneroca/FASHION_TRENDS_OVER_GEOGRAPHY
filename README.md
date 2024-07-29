@@ -1,6 +1,7 @@
 ## The Science of Fashion Trends
 
 <img width="816" alt="Screenshot 2024-07-29 at 4 04 13 PM" src="https://github.com/user-attachments/assets/f3de08d8-e4e9-47bf-9a9b-001d3e0a6578">
+
 *The darker the color, the greater the delay in trends*
 
 ## What Was Our Objective?
